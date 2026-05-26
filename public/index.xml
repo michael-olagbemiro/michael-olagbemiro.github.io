@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Michael Olagbemiro</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Michael Olagbemiro</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a systems and infrastructure engineer with interests spanning data centre
+networking and machine learning infrastructure. I graduated with a BSc in
+Computer Science from Trinity College Dublin.&lt;/p&gt;
+&lt;p&gt;I enjoy going deep on problems at the intersection of these — how networks
+behave under distributed AI workloads, why systems fail in ways that are hard
+to see, and how to build tooling that makes the invisible visible.&lt;/p&gt;
+&lt;p&gt;Most of my work lives at the systems layer. I built &lt;strong&gt;KubeScope&lt;/strong&gt;, a
+kernel-level network observability platform using eBPF and Cilium that captures
+East-West traffic flows in containerised distributed systems without sidecar
+proxies. I&amp;rsquo;ve also been researching congestion control failure modes in AI
+training fabrics — studying how ECN behaves under GPU collective incast
+patterns, where the failure modes are and why they&amp;rsquo;re hard to detect in
+production.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Congestion Control Breakdown in AI Training Networks</title>
+      <link>http://localhost:1313/posts/ecn-incast-collapse/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ecn-incast-collapse/</guid>
+      <description>ECN incast collapse at 4:1 sender ratio — reproducing the instability Meta observed abandoning DCQCN at 400G scale.</description>
+    </item>
+  </channel>
+</rss>
