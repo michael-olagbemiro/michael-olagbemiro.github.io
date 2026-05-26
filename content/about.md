@@ -12,7 +12,7 @@ I enjoy going deep on problems at the intersection of these — how networks
 behave under distributed AI workloads, why systems fail in ways that are hard
 to see, and how to build tooling that makes the invisible visible.
 
-Most of my work lives at the systems layer. I built **KubeScope**, a
+Most of my work lives at the systems layer. I built KubeScope, a
 kernel-level network observability platform using eBPF and Cilium that captures
 East-West traffic flows in containerised distributed systems without sidecar
 proxies. I've also been researching congestion control failure modes in AI

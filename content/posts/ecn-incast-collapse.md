@@ -13,7 +13,7 @@ cover:
     caption: "Throughput collapses 23% at N=4 senders — feedback loop over-reaction"
 ---
 
-📄 **[Download full paper (PDF)](/papers/congestion-control-breakdown.pdf)** | 💻 **[Code and data on GitHub](https://github.com/michael-olagbemiro/roce-lab)**
+ **[Download full paper (PDF)](/papers/congestion-control-breakdown.pdf)** |  **[Code and data on GitHub](https://github.com/michael-olagbemiro/roce-lab)**
 
 ---
 
@@ -87,13 +87,13 @@ SR Linux virtual does not generate PFC pause frames autonomously. Demonstrated t
 
 | Capability | Virtual | Real ASIC |
 |------------|---------|-----------|
-| BGP / routing validation | ✅ | ✅ |
-| ECN mechanism (with Linux tc) | ✅ | ✅ |
-| ECN incast breakdown threshold | ✅ | ✅ |
-| PFC frame structure | ✅ | ✅ |
-| Autonomous PFC generation | ❌ | ✅ |
-| Native ECN at switch egress | ❌ | ✅ |
-| Microburst timing accuracy | ❌ | ✅ |
+| BGP / routing validation | ✓ | ✓ |
+| ECN mechanism (with Linux tc) | ✓ | ✓ |
+| ECN incast breakdown threshold | ✓ | ✓ |
+| PFC frame structure | ✓ | ✓ |
+| Autonomous PFC generation | ✘ | ✓ |
+| Native ECN at switch egress | ✘ | ✓ |
+| Microburst timing accuracy | ✘ | ✓ |
 
 ---
 
