@@ -27,4 +27,7 @@ starts.
 ---
 
 **Email:** [olagbemm@tcd.ie](mailto:olagbemm@tcd.ie)  
+
 **GitHub:** [michael-olagbemiro](https://github.com/michael-olagbemiro)
+
+**Linkedin:** [Michael Olagbemiro](https://www.linkedin.com/in/michael-olagbemiro-458b7b16a/)

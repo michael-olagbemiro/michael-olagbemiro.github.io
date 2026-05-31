@@ -1,6 +1,6 @@
 ---
 title: "Congestion Control Breakdown in AI Training Networks"
-date: 2026-05-26
+
 draft: false
 author: "Michael Olagbemiro"
 tags: ["networking", "RoCE", "ECN", "PFC", "BGP", "AI infrastructure"]

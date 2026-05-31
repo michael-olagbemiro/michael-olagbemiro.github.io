@@ -118,6 +118,25 @@
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/plotA_ring_tree_auto_8x.png" alt="Ring vs Tree vs Auto on 8x A100 NVSwitch">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">NCCL Collective Communication Performance on 8x A100 SXM4 NVSwitch
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Download full paper (PDF) | Code and data on GitHub
+What this is about Every distributed training job is secretly a communication problem. When 8 GPUs synchronise gradients after each training step, NCCL makes two decisions that most engineers never examine: which algorithm to use (Ring or Tree) and which protocol to use (LL, LL128, or Simple). Those decisions determine whether you saturate your NVSwitch fabric or leave most of it idle.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-05-31 00:00:00 +0000 UTC'>May 31, 2026</span>&nbsp;·&nbsp;<span>Michael Olagbemiro</span></footer>
+  <a class="entry-link" aria-label="post link to NCCL Collective Communication Performance on 8x A100 SXM4 NVSwitch" href="http://localhost:1313/posts/nccl-benchmarks/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="http://localhost:1313/images/fig1-incast-sweep.png" alt="ECN incast collapse at 4 senders">
 </figure>
   <header class="entry-header">
@@ -125,14 +144,14 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>📄 Download full paper (PDF) | 💻 Code and data on GitHub
+    <p>Download full paper (PDF) | Code and data on GitHub
 What this is about When thousands of GPUs synchronize gradient updates during AI training, every node sends simultaneously. That synchronized burst — incast — is the defining traffic pattern of distributed training, and it is exactly what standard congestion control was not designed for.
 This post documents what happens when you try to demonstrate PFC and ECN congestion control on virtual switching platforms, hit two platform walls, and extract something more useful than the original experiment would have produced: a precise characterisation of ECN’s incast breakdown threshold and its architectural dependency on sustained queue pressure.
 ...</p>
   </div>
   <footer class="entry-footer">
 
-<span title='2026-05-26 00:00:00 +0000 UTC'>May 26, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>Michael Olagbemiro</span></footer>
+<span title='2026-05-26 00:00:00 +0000 UTC'>May 26, 2026</span>&nbsp;·&nbsp;<span>Michael Olagbemiro</span></footer>
   <a class="entry-link" aria-label="post link to Congestion Control Breakdown in AI Training Networks" href="http://localhost:1313/posts/ecn-incast-collapse/"></a>
 </article>
     </main>

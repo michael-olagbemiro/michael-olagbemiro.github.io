@@ -19,7 +19,7 @@ Computer Science from Trinity College Dublin.&lt;/p&gt;
 &lt;p&gt;I enjoy going deep on problems at the intersection of these — how networks
 behave under distributed AI workloads, why systems fail in ways that are hard
 to see, and how to build tooling that makes the invisible visible.&lt;/p&gt;
-&lt;p&gt;Most of my work lives at the systems layer. I built &lt;strong&gt;KubeScope&lt;/strong&gt;, a
+&lt;p&gt;Most of my work lives at the systems layer. I built KubeScope, a
 kernel-level network observability platform using eBPF and Cilium that captures
 East-West traffic flows in containerised distributed systems without sidecar
 proxies. I&amp;rsquo;ve also been researching congestion control failure modes in AI
@@ -30,9 +30,16 @@ production.&lt;/p&gt;</description>
     <item>
       <title>Congestion Control Breakdown in AI Training Networks</title>
       <link>http://localhost:1313/posts/ecn-incast-collapse/</link>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ecn-incast-collapse/</guid>
       <description>ECN incast collapse at 4:1 sender ratio — reproducing the instability Meta observed abandoning DCQCN at 400G scale.</description>
+    </item>
+    <item>
+      <title>NCCL Collective Communication Performance on 8x A100 SXM4 NVSwitch</title>
+      <link>http://localhost:1313/posts/nccl-benchmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/nccl-benchmarks/</guid>
+      <description>Empirical benchmarking of NCCL algorithm and protocol selection on 8x A100 SXM4 NVSwitch — Ring-Tree crossover at 4-8KB, LL protocol 61% bandwidth penalty, and two undocumented performance anomalies.</description>
     </item>
   </channel>
 </rss>

@@ -6,9 +6,10 @@ theme = 'PaperMod'
 [params]
   author = 'Michael Olagbemiro'
   description = 'Network infrastructure engineer. RoCE, BGP, distributed systems.'
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
+  disableSpecial1stPost = true
+  ShowReadingTime = false
+  ShowShareButtons = true
+  ShowPostNavLinks = false
   ShowCodeCopyButtons = true
 
 [menu]
